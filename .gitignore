@@ -1,0 +1,42 @@
+# Ignore environment variables
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ignore Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Ignore Visual Studio Code settings (if using VS Code)
+.vscode/
+.devcontainer/
+
+# Ignore virtual environments (if created in project folder)
+venv/
+.env/
+env/
+*.venv
+
+# Ignore input and output files (if these folders contain temporary or generated data)
+input/
+output/
+
+# Ignore logs
+*.log
+
+# Ignore compiled and other binary files
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Ignore application specific
+streamlit/
