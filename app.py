@@ -72,7 +72,7 @@ with st.sidebar:
 # Main input fields for user prompt and file upload
 st.subheader("Chat with Gemini-Pro")
 input_prompt = st.text_input("Input your query or prompt:")
-uploaded_file = st.file_uploader("Upload an image or PDF document:", type=["jpg", "jpeg", "png", "pdf"])
+uploaded_file = st.file_uploader("Upload an image or PDF document:", type=["pdf"])
 
 content = None  
 
