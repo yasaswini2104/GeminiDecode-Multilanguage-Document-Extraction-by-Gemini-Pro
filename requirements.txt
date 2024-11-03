@@ -1,0 +1,9 @@
+streamlit
+google-generativeai
+python-dotenv
+PyPDF2
+chromadb
+faiss-cpu
+cassio
+tiktoken
+datasets
